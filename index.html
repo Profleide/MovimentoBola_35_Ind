@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jogo da bola Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuração do Firebase do seu aplicativo da web
+      const firebaseConfig = {
+  apiKey: "AIzaSyDnSO_YOvhCmFlCndCV1Ya7D2-RHT_74Ss",
+  authDomain: "movimentodebola-309e5.firebaseapp.com",
+  databaseURL: "https://movimentodebola-309e5-default-rtdb.firebaseio.com",
+  projectId: "movimentodebola-309e5",
+  storageBucket: "movimentodebola-309e5.appspot.com",
+  messagingSenderId: "512031040482",
+  appId: "1:512031040482:web:96966d21400fe98a540fbb"
+};
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
